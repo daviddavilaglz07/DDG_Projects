@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nova+Round&display=swap');
+
+body {
+    margin: 0 10%;
+}
+
+h1 {
+    font-weight: bold;
+    display: block;
+}
+
+h2 {
+    font-weight: bold;
+    display: block;
+}
+
+div {
+    display: block;
+}
+
+.container {
+    margin: 10px auto;
+    border: 2px solid #1F2833;
+    padding: 10px;
+}
+
+.color-container {
+    width: 100%;
+}
+
+.color-panel {
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px;
+}
+
+.smoky-black {
+    background-color: #0B0C10;
+    color:white;
+}
+
+.dark-gunmetal {
+    background-color: #1F2833;
+    color:white;
+}
+
+.silver-sand {
+    background-color: #C5C6C7;
+    color:black;
+}
+
+.electric-blue {
+    background-color: #66FCF1;
+    color:black;
+}
+
+.keppel {
+    background-color: #45A29E;
+    color:black;
+}
+
+.font-panel {
+    display: inline-block;
+    width: 42%;
+}
+
+.font-label {
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.regular {
+    font-style: normal;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.aboreto {
+    font-family: 'Aboreto', monospace;
+}
+
+.cinzel {
+    font-family: 'Cinzel', monospace;
+}
+
+.nova-round {
+    font-family: 'Nova Round', monospace;
+}
+
+.text-panel h1 {
+    font-weight: 700;
+    font-size: 26px;
+    font-family: 'Cinzel', monospace;
+}
+
+.text-panel h2 {
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'Nova Round', monospace;
+}
+
+.text-panel p {
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Nova Round', monospace;
+}

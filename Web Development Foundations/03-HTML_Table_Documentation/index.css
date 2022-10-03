@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: cadetblue;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    color:darkblue;
+}
+
+table {
+    
+    margin: 0 auto;
+    width: 650px;
+}
+
+table, thead, tbody, tr, th {
+    border: 2px solid aqua;
+}
+
+th {
+    font-weight: bold;
+    background-color: blueviolet;
+    
+}

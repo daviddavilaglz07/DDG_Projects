@@ -1,0 +1,140 @@
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+.header {
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background-color: black;
+    display: inline;
+}
+
+.logo{
+    height: 50px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 9.5px;
+}
+
+.menu{
+    float: right;
+    margin-right: 10px;
+}
+
+.menu li {
+    display: inline;
+    text-decoration: underline;
+}
+
+.mission {
+    position: relative;
+    margin: 0 auto;
+    top: 69px;
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg');
+    width: 1200px;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mission .text{
+    background-color: black;
+    width: 100%;
+}
+
+.tea-of-month {
+    position: relative;
+    margin: 0 auto;
+    top: 120px;
+    width: 1000px;
+}
+
+.tea-of-month .types{
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px auto;
+}
+
+figure {
+    margin: 0px 10px;
+}
+
+figcaption h4 {
+    margin: 10px auto;
+}
+
+figure img {
+    width: 300px;
+    height: 200px;
+    margin: 0px auto;
+}
+
+.locations {
+    position: relative;
+    margin: 20px auto;
+    top: 120px;
+    height: 500px;
+    width: 1200px;
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg');
+}
+
+.locations .title {
+    padding-top: 50px;
+}
+
+.locations .title h2{
+    margin-bottom: 0px;
+}
+
+.locations .data{
+    margin: 15px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.data .individual {
+    padding-top: 0;
+    background-color:  black;
+    width: 300px;
+    height: 300px;
+    margin: 15px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.data .individual div{
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact {
+    position: relative;
+    margin: 0 auto;
+    top: 120px;
+    height: 200px;
+}
+
+.footer {
+    position: relative;
+    margin: 0px auto;
+    top: 120px;
+    float: left;
+    margin-left: 20px;
+}
